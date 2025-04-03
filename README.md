@@ -1,4 +1,4 @@
-Hi there 👋 
+dHi there 👋 
 
 🌱 I’m currently learning about Git and the development lifecycle, focusing on more collaboration and the sharing of ideas. 
 
@@ -19,7 +19,8 @@ Hyper-V Manager built 5 x Ubuntu Server 24.04 LTS
         OpenVPN-as
         Keycloak 
 
-I did the above after work during nights over the course of a week. I would like to get OpenVPN SAML Auth working, that's my current after work project. 
+I did the above after work during nights over the course of a week. Is nice to have domain serving a secured www record / website.
+I would like to get OpenVPN SAML Auth working, that's my current after work project. 
 
 I then became abundantly clear to me that I need to formalize my learning and adhere to a higher standard, coasting and relying on a companion(co-pilot) is going to create a certain type of sysadmin. Out of respect for those before me I think I should invest time in vendor specific training. 
  
@@ -29,11 +30,11 @@ Outside of the above Ubuntu Server LTS cli lab work I have also:
 Built another lab (weekend just gone) on a private vSwitch:
 
 Windows Server 2025 x 4 
-Ceated a domain called isolated.network using: 
-1 x primary domain controller 
-1 x read-only domain controller 
-1 x DHCP server with a /24 scope + options 66 and 67 
-1 x Deployment server which initially had WDS/MDT serving boot.wim and install.wim
+1. Ceated a domain called isolated.network using: 
+2. 1 x primary domain controller 
+3. 1 x read-only domain controller 
+4. 1 x DHCP server with a /24 scope + options 66 and 67 
+5. 1 x Deployment server which initially had WDS/MDT serving boot.wim and install.wim
 
 notes: EFI PXE boot worked against a guest VM, but Windows 11 Pro has a locked bootloader by Microsoft so didn't work. I ended up binning WDS/MDT and started to go down the Configuration Manager((S)CCM) route but it's a bit of a cobbled mess regarding the user experience and installation, so I paused on that and decided I needed to focus more on my study. 
 
