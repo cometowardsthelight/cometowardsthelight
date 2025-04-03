@@ -26,14 +26,15 @@ I then became abundantly clear to me that I need to formalize my learning and ad
 I have started doing courses over at The Linux Foundation, currently working my way through LFS101. Ambitiously I have already started a subscription on Coursera and enrolled in IBM Backend Dev-Ops, which a completion time estimated to be around 4-6months IIRC at 10 hours a week. I'm about a week past the 7-day free trial and I've yet to look at it. Between the excitement of building LABs to satisfy my curiosities in my role at work watching senior colleagues and other members from other teams realize their work project I've identified a newfound passion for technology. I haven't been this excited about learning and tinkering in 20 years, I turned 41 last week. 
 
 Outside of the above Ubuntu Server LTS cli lab work I have also:
-
 Built another lab (weekend just gone) on a private vSwitch:
+
 Windows Server 2025 x 4 
 Ceated a domain called isolated.network using: 
 1 x primary domain controller 
 1 x read-only domain controller 
 1 x DHCP server with a /24 scope + options 66 and 67 
 1 x Deployment server which initially had WDS/MDT serving boot.wim and install.wim
+
 notes: EFI PXE boot worked against a guest VM, but Windows 11 Pro has a locked bootloader by Microsoft so didn't work. I ended up binning WDS/MDT and started to go down the Configuration Manager((S)CCM) route but it's a bit of a cobbled mess regarding the user experience and installation, so I paused on that and decided I needed to focus more on my study. 
 
 It's now Thursday and I've been scripting things at work via Co-Pilot having great results but my senior colleague as mentioned that Microsoft Teams main chat for our department isn't the place for my rubber-ducking ad hoc updates and I need to put stuff in the corporate repository at work, and it dawned on me that I had no idea what he meant and it's pretty embarrassing at this juncture of my career to be admitting that. So that's why I've come here and signed up and completed the intro course. I have no idea what I will do in future, but the plan is to have this here, having completed the first exercise I now understand perfectly well the esoteric 'git' related terminology I've been hearing for years in my career and just nodded along to. 
