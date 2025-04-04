@@ -1,4 +1,4 @@
-dHi there 👋 
+Hi there 👋 
 
 🌱 I’m currently learning about Git and the development lifecycle, focusing on more collaboration and the sharing of ideas. 
 
